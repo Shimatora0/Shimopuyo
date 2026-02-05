@@ -78,7 +78,7 @@ function setup(){
     //イメージデータ、1~6までの画像を読み込む
     for(let i=0; i<10; i++)loadImg(1 + i, "image/oti"+(i+1)+".png");
     loadImg(11,"image/title.png");
-    loadSound(0,"sound/shower.mp4");//BGM
+    loadSound(0,"sound/You_and_Me.mp3");//BGM
     loadSound(1,"sound/se5.mp3");//SE
     //ゲームで使う変数を初期状態にする関数を呼び出す
     initVar();
@@ -525,3 +525,4 @@ function drawEffect(){
                     lineW(1);
 
 }
+
